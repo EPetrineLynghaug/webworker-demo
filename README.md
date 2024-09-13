@@ -57,9 +57,11 @@
 	•	Event-Driven Applications: In apps where events are 
         constantly triggered, web workers allow for more efficient event handling.
 </details>
+
 <summary style="font-weight: bold">Example Use Case: Cryptography</summary>
 One typical use case for a web worker is performing cryptographic tasks, such as hashing or salting passwords. Web workers allow you to handle this in the background, making it ideal for resource-intensive processes without slowing down the user interface.
 </details>
+
 <summary style="font-weight: bold">Conclusion</summary>
 Web workers are powerful tools that help improve the performance and responsiveness of web applications by allowing resource-intensive tasks to be offloaded to background processes. In this project, we’ve explored how to integrate hashing and salting techniques using web workers for better cryptographic handling.
 </details>
