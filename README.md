@@ -22,14 +22,17 @@
          multiple workers running simultaneously, and even add service workers for additional background tasks.
 </details>
 
-<summary style="font-weight: bold">Types of Web Workers</summary>
-	1.	Dedicated Workers: Run within a single script and 
+<details>
+  <summary style="font-weight: bold">Types of Web Workers</summary>
+    1.	Dedicated Workers: Run within a single script and 
         cannot be shared between different scripts.
 	2.	Shared Workers: Can be shared between different 
         scripts or browser windows.
 	3.	Service Workers: Usually used to handle tasks in the 
         background, like caching or handling network requests.
 </details>
+
+
 
 <summary style="font-weight: bold">Common Use Cases for Web Workers</summary>
 	Web workers are particularly helpful when dealing with tasks that are too heavy to run on the main thread:
