@@ -1,4 +1,4 @@
-# Web Workers Overview - notes.
+# 	Lecture Notes: Web Workers Overview 
 
 
 ## Description
