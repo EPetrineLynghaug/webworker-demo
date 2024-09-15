@@ -6,8 +6,8 @@ Web Workers allow you to run tasks in the background without interrupting the ma
 
 
 ## Key Features of Web Workers
-    	•Concurrency: Perform heavy tasks in the background 
-         without disrupting the UI.
+	•Concurrency: Perform heavy tasks in the background 
+	without disrupting the UI.
 	•Isolated Context: Web workers run in a separate 
         environment, making them ideal for handling tasks independently.
 	•Communication via Messaging: Web workers use 
@@ -26,30 +26,20 @@ Web Workers allow you to run tasks in the background without interrupting the ma
 
 
 ## Common Use Cases for Web Workers
-	Web workers are particularly helpful when dealing with tasks that are too heavy to run on the main thread:
 
-	•Heavy Calculations: Tasks such as matrix operations 
-        or scientific computations.
-	•Large Image Editing: For example, applying filters 
-        to a large gallery of images.
-	•Handling I/O: Fetching large files from a server or 
-        processing data from WebSockets.
-	•Parallel Programming: Handling complex simulations 
-        or tasks that can run concurrently.
-	•Data Parsing and Formatting: Parsing large JSON, 
-        XML, or CSV files.
-	•Machine Learning and AI: Running complex AI 
-        algorithms in the background.
-	•Background Sync: Sync data in the background or 
-        create installable Progressive Web Apps (PWAs).
-	•Cryptography: Encrypting, decrypting, generating
-         keys, or working with digital signatures.
-	•WebAssembly: For high-performance tasks like 3D 
-        rendering or web-based games.
-	•Collaboration Tools: Real-time tools like Google 
-        Docs use web workers to handle background processes.
-	•Event-Driven Applications: In apps where events are 
-        constantly triggered, web workers allow for more efficient event handling.
+Web workers are particularly helpful when dealing with tasks that are too heavy to run on the main thread:
+
+- **Heavy Calculations:** Tasks such as matrix operations or scientific computations.
+- **Large Image Editing:** For example, applying filters to a large gallery of images.
+- **Handling I/O:** Fetching large files from a server or processing data from WebSockets.
+- **Parallel Programming:** Handling complex simulations or tasks that can run concurrently.
+- **Data Parsing and Formatting:** Parsing large JSON, XML, or CSV files.
+- **Machine Learning and AI:** Running complex AI algorithms in the background.
+- **Background Sync:** Sync data in the background or create installable Progressive Web Apps (PWAs).
+- **Cryptography:** Encrypting, decrypting, generating keys, or working with digital signatures.
+- **WebAssembly:** For high-performance tasks like 3D rendering or web-based games.
+- **Collaboration Tools:** Real-time tools like Google Docs use web workers to handle background processes.
+- **Event-Driven Applications:** In apps where events are constantly triggered, web workers allow for more efficient event handling.
 
 ## Example Use Case: Cryptography
     One typical use case for a web worker is performing cryptographic tasks, such as hashing or salting passwords. Web workers allow you to handle this in the background, making it ideal for resource-intensive processes without slowing down the user interface.
