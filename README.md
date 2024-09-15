@@ -48,7 +48,7 @@ Web workers are particularly helpful when dealing with tasks that are too heavy 
 ## Example Use Case: Cryptography
 <details>
   <summary><strong>Click to read more</strong></summary>
-- **One typical use case for a web worker is performing cryptographic tasks, such as hashing or salting passwords. Web workers allow you to handle this in the background, making it ideal for resource-intensive processes without slowing down the user interface.
+One typical use case for a web worker is performing cryptographic tasks, such as hashing or salting passwords. Web workers allow you to handle this in the background, making it ideal for resource-intensive processes without slowing down the user interface.
 </details>
 
 ## Conclusion
