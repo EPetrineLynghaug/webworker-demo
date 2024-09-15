@@ -18,10 +18,11 @@ Web Workers allow you to run tasks in the background without interrupting the ma
 
 ## Types of Web Workers
 <details>
-  <summary><strong>Click to reade more</strong></summary>
+  <summary><strong>Click to read more</strong></summary>
 1. **Dedicated Workers:** Run within a single script and cannot be shared between different scripts.
 2. **Shared Workers:** Can be shared between different scripts or browser windows.
 3. **Service Workers:** Usually used to handle tasks in the background, like caching or handling network requests.
+</details>
 
 
 ## Common Use Cases for Web Workers
