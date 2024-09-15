@@ -4,13 +4,16 @@
 ## Description
 Web Workers allow you to run tasks in the background without interrupting the main event loop. They are especially useful for handling heavy computations or I/O-bound tasks. In today’s lecture, for example, we used Amiibo to fetch data with a web worker.
 
-<details>
-  <summary style="font-weight: bold">## Key Features of Web Workers</summary>
 ## Key Features of Web Workers
-- **Concurrency:** Perform heavy tasks in the background without disrupting the UI.
-- **Isolated Context:** Web workers run in a separate environment, making them ideal for handling tasks independently.
-- **Communication via Messaging:** Web workers use `postMessage` to send messages between workers, allowing systems to communicate between different sides of the application.
-- **Scalability with Multiple Workers:** You can have multiple workers running simultaneously, and even add service workers for additional background tasks.
+
+<details>
+  <summary><strong>Click to see the Key Features</strong></summary>
+
+  - **Concurrency:** Perform heavy tasks in the background without disrupting the UI.
+  - **Isolated Context:** Web workers run in a separate environment, making them ideal for handling tasks independently.
+  - **Communication via Messaging:** Web workers use `postMessage` to send messages between workers, allowing systems to communicate between different sides of the application.
+  - **Scalability with Multiple Workers:** You can have multiple workers running simultaneously, and even add service workers for additional background tasks.
+
 </details>
 
 ## Types of Web Workers
